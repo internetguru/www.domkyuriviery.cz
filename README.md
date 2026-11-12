@@ -24,3 +24,5 @@ Static copy of the Domky u Riviéry website (Domky u Riviéry s.r.o.), formerly 
 
 - `CNAME` – `www.domkyuriviery.cz`; the apex `domkyuriviery.cz` is redirected by GitHub Pages.
 - Mail stays on Seznam Email Profi (MX and SPF unchanged).
+- HTTPS is enforced (GitHub Pages certificate for `www.domkyuriviery.cz` and `domkyuriviery.cz`).
+- Monitor "Domkyuriviery Website" on uptime.internetguru.io, alerts to Slack.
