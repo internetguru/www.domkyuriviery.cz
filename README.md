@@ -8,7 +8,7 @@ Static copy of the Domky u Riviéry website (Domky u Riviéry s.r.o.), formerly 
 
 ## Changes from the IGCMS site
 
-- The contact form opens an e-mail to `info@domkyuriviery.cz` instead of posting to the server. The "send me a copy" option was removed.
+- The contact form was removed (it needed the IGCMS backend). The Kontakty section keeps the phone and e-mail, and its intro now asks visitors to call or write.
 - `themes/fontloader.js`, `mergeable.js`, `photoswipe.js` and `events.js` were taken from the IGCMS backup. On IGCMS they failed with a PHP error, so the site fell back to Arial instead of Montserrat and the photo gallery did not open.
 - Removed: Google Analytics (dead Universal Analytics property), the "Poslat zpětnou vazbu" link to the IGCMS bug tracker, and the missing `lib/fa-subset.js`.
 - Kept: the Seznam retargeting script.
