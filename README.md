@@ -12,6 +12,7 @@ Static copy of the Domky u Riviéry website (Domky u Riviéry s.r.o.), formerly 
 - `themes/fontloader.js`, `mergeable.js`, `photoswipe.js` and `events.js` were taken from the IGCMS backup. On IGCMS they failed with a PHP error, so the site fell back to Arial instead of Montserrat and the photo gallery did not open.
 - Removed: Google Analytics (dead Universal Analytics property), the "Poslat zpětnou vazbu" link to the IGCMS bug tracker, and the missing `lib/fa-subset.js`.
 - Kept: the Seznam retargeting script.
+- Added: Umami (website "WWW Domkyuriviery" on umami.internetguru.io) via `~/Work/static-sites/add_umami.py`, including click events from `themes/eventable.js`.
 
 ## DNS (Hetzner, zone in docker-ansible `dns/zones/domkyuriviery.cz.zone`)
 
