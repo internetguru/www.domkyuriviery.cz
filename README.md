@@ -13,10 +13,7 @@ Static copy of the Domky u Riviéry website (Domky u Riviéry s.r.o.), formerly 
 - Removed: Google Analytics (dead Universal Analytics property), the "Poslat zpětnou vazbu" link to the IGCMS bug tracker, and the missing `lib/fa-subset.js`.
 - Kept: the Seznam retargeting script.
 
-## Launch (not done yet)
-
-1. Add `CNAME` with `www.domkyuriviery.cz` and set the custom domain in the repository's Pages settings.
-2. DNS:
+## DNS (Hetzner, zone in docker-ansible `dns/zones/domkyuriviery.cz.zone`)
 
 | Zone | Name | Type | Value |
 |---|---|---|---|
@@ -24,4 +21,5 @@ Static copy of the Domky u Riviéry website (Domky u Riviéry s.r.o.), formerly 
 | domkyuriviery.cz | @ | AAAA | 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153 |
 | domkyuriviery.cz | www | CNAME | internetguru.github.io. |
 
-3. Enforce HTTPS, then: Umami, Kuma monitor, delete the site from the `igcms` server.
+- `CNAME` – `www.domkyuriviery.cz`; the apex `domkyuriviery.cz` is redirected by GitHub Pages.
+- Mail stays on Seznam Email Profi (MX and SPF unchanged).
