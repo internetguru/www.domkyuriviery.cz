@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+/***********************/
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,
+div.paragraph, div.list, pre {
+  margin: 1em auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.hdesc > *,
+#content > .hdesc + *:not(.section) > *,
+.section > .part > *,
+body #header > *,
+body #footer > * {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+/***********************/
+#b4 select[name="landA"] {
+  display: none;
+}
+#a4 select[name="landB"] {
+  display: none;
+}
+/***********************/
+.hide {
+  display: none !important;
+}
+

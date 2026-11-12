@@ -1,0 +1,1 @@
+require("IGCMS.Editable",function(){IGCMS.Editable.init({unload_msg:"Obsah formul\xE1\u0159e byl zm\u011Bn\u011Bn",emptyform_msg:"Neprovedli jste \u017E\xE1dn\xE9 zm\u011Bny. Chcete p\u0159esto odeslat formul\xE1\u0159?"})});

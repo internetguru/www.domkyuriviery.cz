@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+select,
+input:not([type="radio"]) {
+  padding: 0.15em 0.3em;
+}
+
+form dt {
+  font-size: 1rem;
+  max-width: 15em;
+  width: 100%;
+  display: inline-block;
+  font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="email"],
+form dd > textarea,
+form dd {
+  max-width: 24em;
+  width: 100%;
+}
+
+form#inputvarform {
+  text-align: left;
+}
+form dt, form dd {
+  margin: 0.5rem 0;
+}
+
+form dt, form dt+dd {
+  float: none;
+}
+
+form dt, form dt+dd+dd {
+  clear:left;
+}
+
+form dt+dd+dd {
+  font-style: italic;
+  font-weight: normal;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  box-sizing: border-box;
+}
+
+form fieldset {
+  border-top: 0.15em solid rgb(204, 217, 226);
+}
+
+form dd > textarea {
+  font: inherit;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 43em) {
+  form dt, form dt+dd {
+    float: left;
+  }
+  form dt+dd+dd {
+    margin-left: 15em;
+  }
+}
+
+@media screen {
+  form dd {
+    margin-left: 0;
+  }
+}
+
+input:not([type='submit']),
+textarea {
+  border: 0 none;
+  border-bottom: thin solid #666;
+  background: #ffffff;
+  border-radius: 0.5em 0.5em 0 0;
+  padding: 1em;
+  line-height: 1.5em;
+}
+select {
+  padding: 0.6em;
+}
+.warning {
+  border-color: #E78181;
+  background-color: #F99F9F;
+}
+form dl dt {
+  margin-top: 1.5em;
+}
